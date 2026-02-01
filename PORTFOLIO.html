@@ -3,56 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="PORTFOLIO.css"> 
+    <title>Yash Solanki | Portfolio</title>
+    <link rel="stylesheet" href="PORTFOLIO.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    
+    <nav>
+        <h2 class="logo">YS</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+   
     <header>
-        <img src="profile.jpeg" alt="Profile photo of Yash Solanki" class="profile-img">
+        <img src="profile.jpeg" alt="Yash Solanki" class="profile-img">
         <h1>Yash Solanki</h1>
         <p>Aspiring Web Developer | Designer | Creative Thinker</p>
+       
     </header>
-    
-    <section id="about">
+
+   
+    <section id="about" class="card">
         <h2>About Me</h2>
-        <p>Hi, I'm Yash Solanki. I am an aspiring front-end web developer.<br>
-        I have done my senior secondary from RPS School with 82% in class 12th and 89% in class 10th.<br>
-        Currently, I am pursuing B.Tech CSE from SRM University with 8.1 (SGPA) in 3rd semester and 7.9 (CGPA) till now.<br>
-        My areas of interest are traveling and music listening.</p>
+        <p>
+            Hi, I'm <strong>Yash Solanki</strong>, an aspiring front-end web developer.
+            I completed my schooling from RPS School with 82% in 12th and 89% in 10th.
+            Currently pursuing <strong>B.Tech CSE</strong> at SRM University with 8.1 SGPA and 7.9 CGPA.
+            I love traveling and listening to music 🎵.
+        </p>
     </section>
-    
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>HTML, CSS</li>
-            <li>C, Python</li>
-        </ul>
-        <h2>Soft Skills</h2>
-        <ul>
-            <li>Good Listener</li>
-            <li>Quick Learner</li>
-            <li>Good at Problem Solving</li>
-        </ul>
-    </section>
-    
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project">
-            <h3>BloodLink</h3>
-            <p>BloodLink is a real-time blood donor matching platform that helps patients find nearby blood donors during medical emergencies. <a href="https://bloodlink-acd9c.web.app/" target="_blank" rel="noopener noreferrer">View Project</a></p>
+
+   
+    <section id="skills" class="card">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <h3>Technical</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>C Programming</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="skill-box">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Quick Learner</li>
+                    <li>Good Listener</li>
+                </ul>
+            </div>
         </div>
     </section>
+
     
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: yashsolanki1230@gmail.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/yash-solanki-2151b2395" target="_blank" rel="noopener noreferrer">Yash Solanki</a></p>
-        <p>GitHub: <a href="https://github.com/yashsolanki1230-coder" target="_blank" rel="noopener noreferrer">yashsolanki1230-coder</a></p>
-        <p>Resume: <a href="https://docs.google.com/document/d/1bOEFmQNQjk1JNSJtaqjmaCw6PQYZagb2ppKuGHc6XqA/edit?tab=t.0" download="Yash_Solanki.Resume.pdf">Download My Resume</a></p>
+    <section id="projects" class="card">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>BloodLink 🩸</h3>
+            <p>Real-time blood donor matching platform helping patients find nearby donors during emergencies.</p>
+            <a href="https://bloodlink-acd9c.web.app/" target="_blank" class="btn">View Project</a>
+        </div>
     </section>
-    
+
+   
+    <section id="contact" class="card">
+        <h2>Contact Me</h2>
+        <p>Email: yashsolanki1230@gmail.com</p>
+        <p>
+            <a href="https://www.linkedin.com/in/yash-solanki-2151b2395" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/yashsolanki1230-coder" target="_blank">GitHub</a>
+        </p>
+        <a href="https://docs.google.com/document/d/1bOEFmQNQjk1JNSJtaqjmaCw6PQYZagb2ppKuGHc6XqA/edit" class="btn">Download Resume</a>
+    </section>
+
     <footer>
-        <p>&copy; 2024 Yash Solanki. All rights reserved.</p>
+        <p>© 2024 Yash Solanki | Built with 💻 + ☕</p>
     </footer>
+
 </body>
 </html>
